@@ -1,0 +1,16 @@
+class Solution{
+	public:
+    	long long findNth(long long N)
+    {
+        
+        long long  b10 = N, b9 = 0, position = 1;
+        while( b10 >0  )
+        {
+            b9 += position * (b10%9);
+            b10 /= 9;
+            position *= 10;
+        }
+       
+       return b9; 
+    }
+};
