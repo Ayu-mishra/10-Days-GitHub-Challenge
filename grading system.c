@@ -27,5 +27,5 @@ void main()
 	printf("\nmarks are out of limit! please try again and enter marks within limit. \n0<= marks <=100 \nThankyou!");
 	
 	
-	return 0;
+	return 0;//
 }
