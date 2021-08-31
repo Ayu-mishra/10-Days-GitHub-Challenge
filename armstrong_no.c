@@ -17,4 +17,4 @@ printf("no is armstrong");
 else
 printf("no is not armstrong");
 
-}
+} // hi
