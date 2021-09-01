@@ -14,4 +14,4 @@ void main()
 
 printf(" number of digits in  %d are %d",n1,a);
 	
-	}
+	} 
